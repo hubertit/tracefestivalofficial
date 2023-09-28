@@ -1,0 +1,179 @@
+/* Light */
+@fonts-face {
+    fonts-family: 'SuisseIntlLight';
+    src: url('assets/fonts/SuisseIntl-Light.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-Light.woff') format('woff');
+    fonts-weight: 300; /* Light fonts weight */
+    fonts-style: normal;
+}
+
+/* Regular */
+@fonts-face {
+    fonts-family: 'SuisseIntlRegular';
+    src: url('assets/fonts/SuisseIntl-Regular.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-Regular.woff') format('woff');
+    fonts-weight: normal;
+    fonts-style: normala;
+}
+
+/* Italic */
+@fonts-face {
+    fonts-family: 'SuisseIntlItalic';
+    src: url('assets/fonts/SuisseIntl-Italic.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-Italic.woff') format('woff');
+    fonts-weight: normal;
+    fonts-style: italic; /* Italic style */
+}
+
+/* Bold */
+@fonts-face {
+    fonts-family: 'SuisseIntlBold';
+    src: url('assets/fonts/SuisseIntl-Bold.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-Bold.woff') format('woff');
+    fonts-weight: bold; /* Bold fonts weight */
+    fonts-style: normal;
+}
+
+/* Condensed */
+@fonts-face {
+    fonts-family: 'SuisseIntlCond';
+    src: url('assets/fonts/SuisseIntlCond-Regular-WebS.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntlCond-Regular-WebS.woff') format('woff');
+
+    fonts-style: normal;
+}
+
+/* Bold Italic */
+@fonts-face {
+    fonts-family: 'SuisseIntlBoldItalic';
+    src: url('assets/fonts/SuisseIntl-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-BoldItalic.woff') format('woff');
+    fonts-weight: bold;
+    fonts-style: italic;
+}
+
+/* Black */
+@fonts-face {
+    fonts-family: 'SuisseIntlBlack';
+    src: url('assets/fonts/SuisseIntl-Black.woff2') format('woff2'),
+    url('assets/fonts/SuisseIntl-Black.woff') format('woff');
+    fonts-weight: 900; /* Black fonts weight */
+    fonts-style: normal;
+}
+
+
+html, body {
+    background: #120F10 !important;
+    font-family: 'SuisseIntlRegular', sans-serif;
+    color: #ffffff !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+
+section{
+}
+
+#titles{
+    position: relative;
+    top: -200px;
+}
+
+/* Use SuisseIntl Light for headings */
+h1, h2, h3 {
+    font-family: 'SuisseIntlLight', sans-serif;
+}
+
+/* Use SuisseIntl Regular for paragraphs */
+p {
+    font-family: 'SuisseIntlRegular', sans-serif;
+}
+
+img{
+    border-radius: 8px;
+}
+
+/* Use SuisseIntl Italic for emphasized text */
+em {
+    font-family: 'SuisseIntlItalic', sans-serif;
+}
+
+/* Use SuisseIntl Bold for strong text */
+strong {
+    font-family: 'SuisseIntlBold', sans-serif;
+}
+
+/* Use SuisseIntl Bold Italic for specific elements */
+.special-text {
+    font-family: 'SuisseIntlBoldItalic', sans-serif;
+}
+
+/* Use SuisseIntl Black for special headings or titles */
+.special-heading {
+    font-family: 'SuisseIntlBlack', sans-serif;
+}
+
+#titles {
+    text-align: center;
+    padding: 36px;
+}
+
+#titles .h1 {
+
+    font-family: 'SuisseIntlCond', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /*letter-spacing: -0.006px;*/
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    /*font-family: SuisseIntlCond;*/
+    max-width: 886px;
+    font-size: 64px;
+    line-height: 64px;
+
+
+}
+
+
+#titles h3 {
+    font-family: 'SuisseIntlBold', sans-serif;
+    /*line-height: 40px !important;*/
+    letter-spacing: 0.29px;
+    color: #DEA644;
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#titles h2 {
+    font-family: 'SuisseIntlCond', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+
+/* #titles a {
+    padding: 14px 32px 10px 32px;
+    border-radius: 48px;
+    background: radial-gradient(96.18% 1246.5% at 26.04% 50%, #DEA644 0%, #C28422 43.23%, #D6AA55 100%);
+    color: #FFFFFF !important;
+    text-decoration: none;
+} */
+
+
+.partner-logo{
+    border: solid 1px #222222;
+}
